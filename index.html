@@ -4,30 +4,11 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-    <title>我的小游戏</title>
-    <link rel="stylesheet" type="text/css" href="http://unpkg.com/view-design/dist/styles/iview.css">
-    <script type="text/javascript" src="http://vuejs.org/js/vue.min.js"></script>
-    <script type="text/javascript" src="http://unpkg.com/view-design/dist/iview.min.js"></script>
+
 </head>
 
 <body>
-<div id="app" style="text-align:center;margin-top: 40px">
-  <p style="margin-top: 12px">
-      <i-button @click="myClick(0,0)" v-bind:type="typeValue[matValue[0][0]]" >{{matValue[0][0]}}</i-button>
-      <i-button @click="myClick(0,1)" v-bind:type="typeValue[matValue[0][1]]" >{{matValue[0][1]}}</i-button>
-      <i-button @click="myClick(0,2)" v-bind:type="typeValue[matValue[0][2]]" >{{matValue[0][2]}}</i-button>
-  </p><p style="margin-top: 4px">
-      <i-button @click="myClick(1,0)" v-bind:type="typeValue[matValue[1][0]]" >{{matValue[1][0]}}</i-button>
-      <i-button @click="myClick(1,1)" v-bind:type="typeValue[matValue[1][1]]" >{{matValue[1][1]}}</i-button>
-      <i-button @click="myClick(1,2)" v-bind:type="typeValue[matValue[1][2]]" >{{matValue[1][2]}}</i-button>
-  </p><p style="margin-top: 4px">
-      <i-button @click="myClick(2,0)" v-bind:type="typeValue[matValue[2][0]]" >{{matValue[2][0]}}</i-button>
-      <i-button @click="myClick(2,1)" v-bind:type="typeValue[matValue[2][1]]" >{{matValue[2][1]}}</i-button>
-      <i-button @click="myClick(2,2)" v-bind:type="typeValue[matValue[2][2]]" >{{matValue[2][2]}}</i-button>
-  </p>
 
-</div>
      
   <p>1代表x，2代表o，请遵守规则。</p>
 </body>
